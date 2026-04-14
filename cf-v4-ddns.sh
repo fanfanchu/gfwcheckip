@@ -37,7 +37,7 @@ CFUSER=fanchuniceboy@gmail.com
 CFZONE_NAME=jichang.best
 
 # Hostname to update, eg: homeserver.example.com
-CFRECORD_NAME=sg.jichang.best
+CFRECORD_NAME=reborn01.jichang.best
 
 # Record type, A(IPv4)|AAAA(IPv6), default IPv4
 CFRECORD_TYPE=A
