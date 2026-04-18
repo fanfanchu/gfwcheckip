@@ -37,7 +37,7 @@ while true; do
         echo "$(date '+%Y-%m-%d %H:%M:%S') - 访问异常: $TARGET_IP 无法 Ping 通！开始执行 API 请求更换 IP..."
         
         # Ping 不通时运行的 Curl 替换命令
-        curl -X PATCH "https://api.aws.sb/ec2-instances/i-0be9974ce9516f2e6/ip-address?r=9kursev5jg" \
+        curl -X PATCH "https://api.aws.sb/ec2-instances/i-00f27184d3b6723f1/ip-address?r=9kursev5jg" \
             --compressed \
             -H "x-auth-token: 364b8146ebd042ac8a5579464eaeb85a" \
             -H "x-region-name: ap-southeast-1" \
